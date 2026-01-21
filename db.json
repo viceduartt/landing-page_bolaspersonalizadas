@@ -1,0 +1,102 @@
+[
+    [
+        {
+            "id": 1,
+            "name": "Kit bolas personalizadas 21cm",
+            "promotion": "",
+            "price": "299",
+            "main": "true",
+            "cover": "images/photos/img11.jpeg",
+            "imgs": [
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Kit bolas victor 21cm",
+            "promotion": "199",
+            "price": "299",
+            "main": "true",
+            "cover": "images/photos/img12.jpeg",
+            "imgs": [
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Kit bolas dsadas 21cm",
+            "promotion": "199",
+            "price": "299",
+            "main": "true",
+            "cover": "images/photos/img13.jpeg",
+            "imgs": [
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg"
+            ]
+        }
+    ],
+    [
+        {
+            "id": 1,
+            "name": "Kit bolas personalizadas 21cm",
+            "promotion": "",
+            "price": "299",
+            "main": "true",
+            "cover": "images/photos/img11.jpeg",
+            "imgs": [
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg"
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Kit bolas personalizadas 21cm",
+            "promotion": "199",
+            "price": "299",
+            "main": "false",
+            "cover": "images/photos/img11.jpeg",
+            "imgs": [
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg"
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Kit bolas personalizadas 21cm",
+            "promotion": "199",
+            "price": "299",
+            "main": "true",
+            "cover": "images/photos/img11.jpeg",
+            "imgs": [
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg",
+                "images/photos/img11.jpeg"
+            ]
+        }
+    ]
+]
