@@ -3,8 +3,8 @@
         {
             "id": 1,
             "name": "Bolas grande de festa 30a31cm",
-            "promotion": "5,99",
-            "price": "3,85",
+            "promotion": "3,85",
+            "price": "8,59",
             "main": "true",
             "cover": "images/photos/img9.jpeg",
             "imgs": [
@@ -24,9 +24,9 @@
         },
         {
             "id": 3,
-            "name": "Bola fantasia 20cm ",
-            "promotion": "",
-            "price": "2,45",
+            "name": "Bola fantasia 20cm",
+            "promotion": "4,99",
+            "price": "2,85",
             "main": "true",
             "cover": "images/photos/img7.jpeg",
             "imgs": [
@@ -49,8 +49,8 @@
         {
             "id": 5,
             "name": "Bolas de confetes 20cm",
-            "promotion": "4,50",
-            "price": "2,85",
+            "promotion": "2,85",
+            "price": "4,99",
             "main": "true",
             "cover": "images/photos/img2.jpeg",
             "imgs": [
@@ -60,8 +60,8 @@
         {
             "id": 6,
             "name": "Bolas brilhantes 20cm",
-            "promotion": "5,00",
-            "price": "2,85",
+            "promotion": "2,85",
+            "price": "5,99",
             "main": "true",
             "cover": "images/photos/img1.jpeg",
             "imgs": [
@@ -73,8 +73,8 @@
         {
             "id": 7,
             "name": "Bolas na promoção",
-            "promotion": "10,00",
-            "price": "4,75",
+            "promotion": "4,75",
+            "price": "8,99",
             "main": "true",
             "cover": "images/photos/img10.jpeg",
             "imgs": [
@@ -84,8 +84,8 @@
         {
             "id": 8,
             "name": "Bolas personalizadas 40cm",
-            "promotion": "12,00",
-            "price": "8,90",
+            "promotion": "8,90",
+            "price": "12,00",
             "main": "true",
             "cover": "images/photos/img5.jpeg",
             "imgs": [
@@ -95,8 +95,8 @@
         {
             "id": 9,
             "name": "Bolas de basketball",
-            "promotion": "11,00",
-            "price": "8,90",
+            "promotion": "8,90",
+            "price": "12,00",
             "main": "true",
             "cover": "images/photos/img6.jpeg",
             "imgs": [
