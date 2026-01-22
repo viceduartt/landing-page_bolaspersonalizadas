@@ -2,99 +2,69 @@
     [
         {
             "id": 1,
-            "name": "Kit bolas personalizadas 21cm",
+            "name": "Bolas grande de festa 30a31cm",
             "promotion": "",
-            "price": "299",
+            "price": "3,85",
             "main": "true",
-            "cover": "images/photos/img11.jpeg",
+            "cover": "images/photos/img1.jpeg",
             "imgs": [
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
                 "images/photos/img11.jpeg"
             ]
         },
         {
             "id": 2,
-            "name": "Kit bolas victor 21cm",
-            "promotion": "199",
-            "price": "299",
+            "name": "Bola dente leite",
+            "promotion": "",
+            "price": "2,85",
             "main": "true",
-            "cover": "images/photos/img12.jpeg",
+            "cover": "images/photos/img2.jpeg",
             "imgs": [
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
                 "images/photos/img11.jpeg"
             ]
         },
         {
             "id": 3,
-            "name": "Kit bolas dsadas 21cm",
-            "promotion": "199",
-            "price": "299",
+            "name": "Bola fantasia 20cm ",
+            "promotion": "",
+            "price": "2,45",
             "main": "true",
-            "cover": "images/photos/img13.jpeg",
+            "cover": "images/photos/img3.jpeg",
             "imgs": [
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
                 "images/photos/img11.jpeg"
             ]
         }
     ],
     [
         {
-            "id": 1,
-            "name": "Kit bolas personalizadas 21cm",
+            "id": 4,
+            "name": "Bola 30 a 31Cm",
             "promotion": "",
-            "price": "299",
+            "price": "3.85",
             "main": "true",
-            "cover": "images/photos/img11.jpeg",
+            "cover": "images/photos/img4.jpeg",
             "imgs": [
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
                 "images/photos/img11.jpeg"
             ]
         },
         {
-            "id": 1,
-            "name": "Kit bolas personalizadas 21cm",
-            "promotion": "199",
-            "price": "299",
-            "main": "false",
-            "cover": "images/photos/img11.jpeg",
+            "id": 5,
+            "name": "Essas são as brilhantes 20cm",
+            "promotion": "",
+            "price": "2,85",
+            "main": "true",
+            "cover": "images/photos/img5.jpeg",
             "imgs": [
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
                 "images/photos/img11.jpeg"
             ]
         },
         {
-            "id": 1,
-            "name": "Kit bolas personalizadas 21cm",
-            "promotion": "199",
-            "price": "299",
+            "id": 6,
+            "name": "Bola fantasia 20cm ",
+            "promotion": "",
+            "price": "2,45",
             "main": "true",
-            "cover": "images/photos/img11.jpeg",
+            "cover": "images/photos/img6.jpeg",
             "imgs": [
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
-                "images/photos/img11.jpeg",
                 "images/photos/img11.jpeg"
             ]
         }

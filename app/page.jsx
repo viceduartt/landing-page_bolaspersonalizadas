@@ -7,12 +7,22 @@ import AllProducts from "./components/AllProducts";
 import Highlights from "./components/Highlights";
 import About from "./components/About";
 import AddProduct from "./components/AddProduct";
+import { useEffect, useState } from "react";
 
 const vicedarttLogo = "images/logoBig.svg"
 
 
 function Home() {
+  const [moblie, setMoblie] = useState(false)
+  useEffect(() => {
+    if (window.innerWidth <= 890) {
+      setMoblie(true)
+    }
+  }, [])
+
   useGSAP(() => {
+    let show = 0
+
     const configHeader = () => {
 
       const animaHeaderDadeOot = (entries) => {
@@ -137,8 +147,16 @@ function Home() {
         }
       }
 
+      if (window.innerWidth <= 890) {
+        show = 0.1
+      } else {
+        show = 0.5
+      }
+
+      console.log(show)
+
       const obseve = new IntersectionObserver(animaCard, {
-        threshold: 0,
+        threshold: show,
       })
 
       document.querySelectorAll(".list-products").forEach((e) => {
