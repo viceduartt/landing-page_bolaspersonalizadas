@@ -98,70 +98,75 @@ function Home() {
     }
 
     const animaCards = () => {
-      gsap.set(".list-products .card", {
-        y: "20%",
-        opacity: 0
-      })
-
-      gsap.set(".list-products", {
-        y: "30%",
-        opacity: 0
-      })
-
-      const animaCard = (entries) => {
-        console.log(entries)
-        const cards = entries[0].target.querySelectorAll(".card")
-
-        if (entries[0].isIntersecting == true) {
-          const timeline = gsap.timeline()
-          console.log(cards)
-
-          gsap.to(".list-products", {
-            duration: 0.5,
-            y: "0",
-            opacity: 1
+      const d = setInterval(() => {
+        if (document.querySelector(".card")) {
+          clearInterval(d)
+          gsap.set(".list-products .card", {
+            y: "20%",
+            opacity: 0
           })
 
-          cards.forEach((e) => {
-
-            timeline.to(e, {
-              duration: 0.3,
-              y: 0,
-              delay: 0.1,
-              opacity: 1,
-            })
-
+          gsap.set(".list-products", {
+            y: "30%",
+            opacity: 0
           })
-        } else {
-          const timeline = gsap.timeline()
 
-          cards.forEach((e) => {
-            timeline.to(e, {
-              duration: 0,
-              delay: 0,
-              y: "20%",
-              opacity: 0
-            })
+          const animaCard = (entries) => {
+            console.log(entries)
+            const cards = entries[0].target.querySelectorAll(".card")
 
+            if (entries[0].isIntersecting == true) {
+              const timeline = gsap.timeline()
+              console.log(cards)
+
+              gsap.to(".list-products", {
+                duration: 0.5,
+                y: "0",
+                opacity: 1
+              })
+
+              cards.forEach((e) => {
+
+                timeline.to(e, {
+                  duration: 0.3,
+                  y: 0,
+                  delay: 0.1,
+                  opacity: 1,
+                })
+
+              })
+            } else {
+              const timeline = gsap.timeline()
+
+              cards.forEach((e) => {
+                timeline.to(e, {
+                  duration: 0,
+                  delay: 0,
+                  y: "20%",
+                  opacity: 0
+                })
+
+              })
+            }
+          }
+
+          if (window.innerWidth <= 890) {
+            show = 0.1
+          } else {
+            show = 0.5
+          }
+
+          console.log(show)
+
+          const obseve = new IntersectionObserver(animaCard, {
+            threshold: show,
+          })
+
+          document.querySelectorAll(".list-products").forEach((e) => {
+            obseve.observe(e)
           })
         }
-      }
-
-      if (window.innerWidth <= 890) {
-        show = 0.1
-      } else {
-        show = 0.5
-      }
-
-      console.log(show)
-
-      const obseve = new IntersectionObserver(animaCard, {
-        threshold: show,
-      })
-
-      document.querySelectorAll(".list-products").forEach((e) => {
-        obseve.observe(e)
-      })
+      }, 400)
     }
 
     const animaHeaderProduct = () => {
