@@ -72,7 +72,7 @@ function Header() {
               <li><a href="#highlights" className="link">Destaques</a></li>
               <li><a href="#allProdycts" className="link">Ver todos</a></li>
               <li><a href="#about" className="link">Como é feito</a></li>
-              <li><a href="" className="link emphasis">Contato</a></li>
+              <li><a href="https://wa.me/5511997188329?text=Ol%C3%A1%20vim%20pelo%20site%20e%20tenho%20interesse" className="link emphasis">Contato</a></li>
             </ul>
           </nav>
         </header>
@@ -92,7 +92,7 @@ function Header() {
               <li><a href="#highlights" className="link">Destaques</a></li>
               <li><a href="#allProdycts" className="link">Ver todos</a></li>
               <li><a href="#about" className="link">Como é feito</a></li>
-              <li><a href="" className="link emphasis">Contato</a></li>
+              <li><a href="https://wa.me/5511997188329?text=Ol%C3%A1%20vim%20pelo%20site%20e%20tenho%20interesse" className="link emphasis">Contato</a></li>
             </ul>
           </nav>
         </header>

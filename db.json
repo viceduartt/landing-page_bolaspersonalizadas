@@ -3,12 +3,12 @@
         {
             "id": 1,
             "name": "Bolas grande de festa 30a31cm",
-            "promotion": "",
+            "promotion": "5,99",
             "price": "3,85",
             "main": "true",
-            "cover": "images/photos/img1.jpeg",
+            "cover": "images/photos/img9.jpeg",
             "imgs": [
-                "images/photos/img11.jpeg"
+                "images/photos/img9.jpeg"
             ]
         },
         {
@@ -17,9 +17,9 @@
             "promotion": "",
             "price": "2,85",
             "main": "true",
-            "cover": "images/photos/img2.jpeg",
+            "cover": "images/photos/img8.jpeg",
             "imgs": [
-                "images/photos/img11.jpeg"
+                "images/photos/img8.jpeg"
             ]
         },
         {
@@ -28,44 +28,79 @@
             "promotion": "",
             "price": "2,45",
             "main": "true",
-            "cover": "images/photos/img3.jpeg",
+            "cover": "images/photos/img7.jpeg",
             "imgs": [
-                "images/photos/img11.jpeg"
+                "images/photos/img7.jpeg"
             ]
         }
     ],
     [
         {
             "id": 4,
-            "name": "Bola 30 a 31Cm",
+            "name": "Bola 30a31Cm",
             "promotion": "",
-            "price": "3.85",
+            "price": "3,85",
             "main": "true",
-            "cover": "images/photos/img4.jpeg",
+            "cover": "images/photos/img3.jpeg",
             "imgs": [
-                "images/photos/img11.jpeg"
+                "images/photos/img3.jpeg"
             ]
         },
         {
             "id": 5,
-            "name": "Essas são as brilhantes 20cm",
-            "promotion": "",
+            "name": "Bolas de confetes 20cm",
+            "promotion": "4,50",
             "price": "2,85",
             "main": "true",
-            "cover": "images/photos/img5.jpeg",
+            "cover": "images/photos/img2.jpeg",
             "imgs": [
-                "images/photos/img11.jpeg"
+                "images/photos/img2.jpeg"
             ]
         },
         {
             "id": 6,
-            "name": "Bola fantasia 20cm ",
-            "promotion": "",
-            "price": "2,45",
+            "name": "Bolas brilhantes 20cm",
+            "promotion": "5,00",
+            "price": "2,85",
+            "main": "true",
+            "cover": "images/photos/img1.jpeg",
+            "imgs": [
+                "images/photos/img1.jpeg"
+            ]
+        }
+    ],
+    [
+        {
+            "id": 7,
+            "name": "Bolas na promoção",
+            "promotion": "10,00",
+            "price": "4,75",
+            "main": "true",
+            "cover": "images/photos/img10.jpeg",
+            "imgs": [
+                "images/photos/img10.jpeg"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Bolas personalizadas 40cm",
+            "promotion": "12,00",
+            "price": "8,90",
+            "main": "true",
+            "cover": "images/photos/img5.jpeg",
+            "imgs": [
+                "images/photos/img5.jpeg"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Bolas de basketball",
+            "promotion": "11,00",
+            "price": "8,90",
             "main": "true",
             "cover": "images/photos/img6.jpeg",
             "imgs": [
-                "images/photos/img11.jpeg"
+                "images/photos/img6.jpeg"
             ]
         }
     ]

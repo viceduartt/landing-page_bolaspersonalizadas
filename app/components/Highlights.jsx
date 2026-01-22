@@ -39,7 +39,8 @@ function Highlights() {
 
 
 
-      const url = "https://www.bolaspersonalizadas.store/"
+      let url = "https://www.bolaspersonalizadas.store/"
+      url = "http://localhost:3000//"
 
       location.href = url + "/buy"
 

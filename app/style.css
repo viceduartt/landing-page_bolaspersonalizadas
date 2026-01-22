@@ -713,6 +713,8 @@ main.buy .group-info-inputs-btn .send {
   background-color: #0B7ADB;
   padding: 2rem 0;
   width: 50%;
+  color: #ffffff;
+  text-align: center;
 }
 main.buy .group-info-inputs-btn .group-info-inputs {
   display: flex;

@@ -25,6 +25,8 @@ function Buy() {
     if (localStorage.getItem('product') !== null) {
       const productdb = JSON.parse(localStorage.getItem('product'))
       setProduct(productdb)
+      console.log(product)
+
 
     }
 
@@ -76,6 +78,7 @@ function Buy() {
 
   const loadProduct = () => {
     if (product !== "") {
+      console.log(product)
 
 
       return (
@@ -142,7 +145,7 @@ function Buy() {
               </div>
             </div>
 
-            <button className="send">Fazer pedido</button>
+            <a href="https://wa.me/5511997188329?text=Ol%C3%A1%20vim%20pelo%20site%20e%20tenho%20interesse" className="send">Fazer pedido</a>
           </section>
         </div>
       )
