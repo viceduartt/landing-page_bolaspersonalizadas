@@ -29,7 +29,7 @@ function AllProducts() {
 
       console.log(localStorage.getItem("product"))
 
-      const url = "http://localhost:3000"
+      const url = "https://www.bolaspersonalizadas.store/"
 
       location.href = url + "/buy"
 
