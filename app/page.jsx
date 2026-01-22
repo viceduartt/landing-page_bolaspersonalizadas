@@ -99,7 +99,7 @@ function Home() {
 
     const animaCards = () => {
       const d = setInterval(() => {
-        if (document.querySelector(".card")) {
+        if (document.querySelector(".highlights .card") !== null && document.querySelector(".allProdycts .card") !== null) {
           clearInterval(d)
           gsap.set(".list-products .card", {
             y: "20%",
