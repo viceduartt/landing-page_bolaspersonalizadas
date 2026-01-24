@@ -7,10 +7,11 @@ import './style.css';
 export async function generateMetadata({ params }) {
   const baseUrl = 'https://eurobyte.store/'
 
-  const title = 'Bolas personalizadas'
+  const title = 'Bolas Personalizadas para Festas e Eventos | BolasPersonalizadas'
   const image = `${baseUrl}/favicon.png`
   const url = `${baseUrl}`
-  const description = 'Soluções em vinil personalizadas para festas e eventos de todos os portes.'
+  const description = 'Bolas personalizadas para festas, eventos e marcas. Produção sob medida, impressão de alta qualidade e entrega rápida em todo o Brasil.'
+
 
   //console.log(meta)
 
@@ -46,7 +47,7 @@ export async function generateMetadata({ params }) {
 export default async function RootLayout({ children, params }) {
 
   return (
-    <html lang="en" translate='no'>
+    <html lang="pt-BR" translate='no'>
       <body>
         {children}
       </body>
